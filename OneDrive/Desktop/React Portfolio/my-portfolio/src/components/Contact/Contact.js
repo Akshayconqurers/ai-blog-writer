@@ -1,4 +1,5 @@
 import './Contact.css';
+import { FaLinkedin, FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub } from 'react-icons/fa';
 
 function Contact() {
   return (
@@ -13,7 +14,7 @@ function Contact() {
         <div className="contact-content">
           <div className="contact-info">
             <div className="contact-item">
-              <div className="contact-icon">📧</div>
+              <div className="contact-icon"><FaEnvelope /></div>
               <div>
                 <h4>Email</h4>
                 <a href="mailto:akshayprince7800@gmail.com">akshayprince7800@gmail.com</a>
@@ -21,7 +22,7 @@ function Contact() {
             </div>
             
             <div className="contact-item">
-              <div className="contact-icon">📱</div>
+              <div className="contact-icon"><FaPhone /></div>
               <div>
                 <h4>Phone</h4>
                 <a href="tel:+919453845941">+91 9453845941</a>
@@ -29,7 +30,7 @@ function Contact() {
             </div>
             
             <div className="contact-item">
-              <div className="contact-icon">💼</div>
+              <div className="contact-icon"><FaLinkedin /></div>
               <div>
                 <h4>LinkedIn</h4>
                 <a href="https://linkedin.com/in/akshay-pratap-singh-a309b8250/" target="_blank" rel="noopener noreferrer">
@@ -39,7 +40,17 @@ function Contact() {
             </div>
             
             <div className="contact-item">
-              <div className="contact-icon">🌍</div>
+              <div className="contact-icon"><FaGithub /></div>
+              <div>
+                <h4>GitHub</h4>
+                <a href="https://github.com/Akshayconqurers" target="_blank" rel="noopener noreferrer">
+                  github.com/Akshayconqurers
+                </a>
+              </div>
+            </div>
+            
+            <div className="contact-item">
+              <div className="contact-icon"><FaMapMarkerAlt /></div>
               <div>
                 <h4>Location</h4>
                 <p>Lucknow, India</p>

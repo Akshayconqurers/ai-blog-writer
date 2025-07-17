@@ -11,8 +11,24 @@ function Hero() {
           B.Tech at BBDITM, Lucknow, with experience in AWS Cloud and IoT development.
         </p>
         <div className="hero-buttons">
-          <button className="btn-primary">View My Work</button>
-          <button className="btn-secondary">Contact Me</button>
+          <a
+            href="https://github.com/Akshayconqurers"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary"
+            style={{ textDecoration: 'none' }}
+          >
+            View My Work
+          </a>
+          <a
+            href="https://linkedin.com/in/akshay-pratap-singh-a309b8250/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-secondary"
+            style={{ textDecoration: 'none' }}
+          >
+            Contact Me
+          </a>
         </div>
       </div>
     </section>
