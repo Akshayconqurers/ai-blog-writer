@@ -9,7 +9,7 @@ function About() {
           <div className="about-text">
             <p>
               I'm Akshay Pratap Singh, a passionate Computer Science Engineering student 
-              at BBDITM, Lucknow. Currently in my final year with a CGPA of 7.5/10, 
+              at BBDITM, Lucknow. Recently graduated with a CGPA of 7.5/10, 
               I'm on an exciting journey to master full-stack development.
             </p>
             <p>
